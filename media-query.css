@@ -1,0 +1,147 @@
+@media only screen and (max-width: 768px){
+
+    /* header css starts here*/
+
+    .empty-div{
+        visibility: visible;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+    }
+    
+    .logo > a > img{
+        height: 50px;
+        width: 150px;
+    }
+
+    .header-content-2{
+        display: none;
+    }
+
+    /* header css ends here*/
+
+    
+
+
+
+
+
+
+    /* section-content css starts here*/
+
+    .section-content > .container{
+        flex-direction: column;
+    }
+
+    /* section-content css ends here*/
+
+
+
+
+    /* section-content (article left side) css starts here */
+    
+    .img2 > a > img{
+        margin-top: 0px;
+    }
+
+    /* section-content (article left side) css ends here */
+
+    
+
+
+    /* section-content (article right (News & Culture) side) css starts here */
+    
+    .news-1 > .content > h6{
+        display: none;
+    }
+    .news-1 > .content > span{
+        padding: 50px 0;
+    }
+
+    /* section-content (article right (News & Culture) side) css starts here */
+
+
+
+
+    /* section-spotlight css starts here */
+
+    .section-spotlight > .container > .content{
+        flex-direction: column;
+    }
+    
+    .spotlight-img > a > img{
+        max-width: 20%;
+        float: right;
+    }
+    
+    .spotlight-content > h6{
+        margin: 0;
+    }
+    
+    /* section-spotlight css ends here */
+
+
+
+    /* section-critics css starts here*/
+
+    .section-critics > .container > .content{
+        flex-direction: column;
+    }
+    
+    .critics-img{
+        max-width: 15%;
+    }
+    
+    .critics-img > a > img{
+        float: right;
+    }
+    
+    .critics-content > h6{
+        margin: 0;
+    }
+    
+    .critics-flexbox{
+        /* border: solid; */
+        flex-direction: row-reverse;
+        text-align: inherit;
+    }
+    
+    .critics-content{
+        /* border: solid; */
+        width: 100%;
+    }
+    
+    .critics-border-both-side{
+        border: none;
+        border-bottom: 1px solid rgb(229,229,229);
+        border-top: 1px solid rgb(229,229,229);
+    }
+    
+    .critics-border-left-side{
+        border: none;
+        border-top: 1px solid rgb(229,229,229);
+    }
+    
+    /* section-critics css ends here*/
+
+
+
+
+
+
+    /* footer css starts here*/
+
+    form{
+        margin: auto;
+        padding: auto;
+    }
+
+
+    /* footer css ends here*/
+
+}
